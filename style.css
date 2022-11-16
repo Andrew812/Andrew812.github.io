@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(140deg, rgba(163, 67, 67, 0.9), rgba(24, 16, 97, 0.9)) no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5% 30%;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 550;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+.header__item{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.first-columns{
+    display: flex;
+    flex-direction: row;
+}
+.first-column__column_1{
+    margin: 3% 5% 3% 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+}
+.first-column__title{
+    margin: 50px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.column__image{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.column__body{
+    color: white;
+}
+.body__title{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 ;
+}
+.body__weight{
+    text-align: center;
+    padding: 0px 110px 50px 55px;
+    font-family: sans-serif;
+}
+.body__price{
+    text-align: center;
+    padding: 0px 55px 40px 110px; 
+    font-family: sans-serif;
+}
+.body__btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    background-color: white;
+    height: 25px;
+    width: 90px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.body__btn_a{
+    text-decoration: none;
+    color: black;
+}
+
+.first-column__column_2{
+    margin: 3% 13% 3% 13%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 20px;
+}
+.footer__subtitle{
+    padding-top: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.footer__line{
+    margin: 1% 2% 1% 2%;
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+    border-radius: 15px;
+}
+.line__title{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.line__text{
+    text-decoration: overline;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer__btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 60px;
+}
+.footer__btn_1{
+
+    color: blue;
+}
+.footer__btn_2{
+
+    color: yellow;
+}
